@@ -1,0 +1,44 @@
+# Expo
+.expo/
+.expo-shared/
+.expo/
+node_modules/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+*.log
+
+# Android
+android/
+android-debug.apk
+android-release.apk
+android/app/build/
+
+# iOS
+ios/
+ios/build/
+Pods/
+*.ipa
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
