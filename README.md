@@ -1,73 +1,53 @@
-# Minimal Template
+# Multi-Step Profile Form - React Native Assignment
 
-This is a [React Native](https://reactnative.dev/) project built with [Expo](https://expo.dev/) and [React Native Reusables](https://reactnativereusables.com).
+A React Native application built with **Expo**, **TypeScript**, **Redux Toolkit**, and **NativeWind** for creating, editing, and deleting user profiles through a multi-step form.
 
-It was initialized using the following command:
+## Features
 
+### Core Features
+- ✅ 3-step form flow (Basic Info → Address Info → Summary)
+- ✅ Create, Read, Update, Delete (CRUD) user profiles
+- ✅ Redux state management with TypeScript
+- ✅ React Navigation with stack navigation
+- ✅ Form validation for required fields
+- ✅ Expo-based development
+
+### Bonus Features
+- ✅ Data persistence using AsyncStorage
+- ✅ Loading states with simulated async actions
+- ✅ Clean and intuitive UI/UX with NativeWind styling
+- ✅ Reusable components
+
+## Screens
+
+1. **Home Screen** - Lists all saved profiles with Edit/Delete buttons
+2. **Step 1** - Basic Information (Full Name, Email, Age)
+3. **Step 2** - Address Information (City, State, Country)
+4. **Step 3** - Summary & Confirmation
+5. **Edit Screen** - Edit existing profiles
+
+## Tech Stack
+
+- **Expo** - React Native framework
+- **React Native** - Mobile development
+- **TypeScript** - Type safety
+- **Redux Toolkit** - State management
+- **React Navigation** - Navigation
+- **NativeWind** - Utility-first styling (Tailwind CSS)
+- **AsyncStorage** - Data persistence
+- **Expo Secure Store** - Secure storage (optional)
+
+## Installation
+
+### Prerequisites
+- Node.js (v16 or higher recommended)
+- npm or yarn
+- Expo CLI (optional)
+- Expo Go app on your phone or simulator
+
+### Steps
+
+1. **Clone the repository**
 ```bash
-npx @react-native-reusables/cli@latest init -t my-app
-```
-
-## Getting Started
-
-To run the development server:
-
-```bash
-    npm run dev
-    # or
-    yarn dev
-    # or
-    pnpm dev
-    # or
-    bun dev
-```
-
-This will start the Expo Dev Server. Open the app in:
-
-- **iOS**: press `i` to launch in the iOS simulator _(Mac only)_
-- **Android**: press `a` to launch in the Android emulator
-- **Web**: press `w` to run in a browser
-
-You can also scan the QR code using the [Expo Go](https://expo.dev/go) app on your device. This project fully supports running in Expo Go for quick testing on physical devices.
-
-## Adding components
-
-You can add more reusable components using the CLI:
-
-```bash
-npx react-native-reusables/cli@latest add [...components]
-```
-
-> e.g. `npx react-native-reusables/cli@latest add input textarea`
-
-If you don't specify any component names, you'll be prompted to select which components to add interactively. Use the `--all` flag to install all available components at once.
-
-## Project Features
-
-- ⚛️ Built with [Expo Router](https://expo.dev/router)
-- 🎨 Styled with [Tailwind CSS](https://tailwindcss.com/) via [Nativewind](https://www.nativewind.dev/)
-- 📦 UI powered by [React Native Reusables](https://github.com/founded-labs/react-native-reusables)
-- 🚀 New Architecture enabled
-- 🔥 Edge to Edge enabled
-- 📱 Runs on iOS, Android, and Web
-
-## Learn More
-
-To dive deeper into the technologies used:
-
-- [React Native Docs](https://reactnative.dev/docs/getting-started)
-- [Expo Docs](https://docs.expo.dev/)
-- [Nativewind Docs](https://www.nativewind.dev/)
-- [React Native Reusables](https://reactnativereusables.com)
-
-## Deploy with EAS
-
-The easiest way to deploy your app is with [Expo Application Services (EAS)](https://expo.dev/eas).
-
-- [EAS Build](https://docs.expo.dev/build/introduction/)
-- [EAS Updates](https://docs.expo.dev/eas-update/introduction/)
-- [EAS Submit](https://docs.expo.dev/submit/introduction/)
-
----
-
-If you enjoy using React Native Reusables, please consider giving it a ⭐ on [GitHub](https://github.com/founded-labs/react-native-reusables). Your support means a lot!
+git clone [your-repository-url]
+cd multi-step-profile-form
